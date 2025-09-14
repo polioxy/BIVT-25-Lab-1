@@ -28,7 +28,7 @@
             bool answer = false;
 
             // code here
-            answer = (a + b) > Convert.ToDouble(((Math.Abs(a) + Math.Abs(b) / 2)));
+            answer = (a + b) > (double)(((Math.Abs(a) + Math.Abs(b) / 2)));
             // end
 
             return answer;
